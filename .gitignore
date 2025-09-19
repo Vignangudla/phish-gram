@@ -1,0 +1,80 @@
+# ---- OS / Editor junk ----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.orig
+*.bak
+*.tmp
+~$*
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+
+# ---- Logs & runtime ----
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+pm2.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ---- Env / secrets ----
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# ---- Node / package managers ----
+node_modules/
+**/node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# ---- Build outputs ----
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.vercel/
+.vite/
+coverage/
+.nyc_output/
+.cache/
+.cache-loader/
+storybook-static/
+.cypress/*
+!cypress/fixtures/**
+!cypress/support/**
+!cypress/e2e/**
+
+# ---- Frontend frameworks ----
+# Next.js
+.next/
+# Vite
+vite.config.ts.timestamp-*
+# Expo/React Native (if any)
+.expo/
+expo-debug.log
+expo-error.log
+
+# ---- Transpiled / temporary ----
+*.tsbuildinfo
+*.map
+*.d.ts
+.tmp/
+temp/
+tmp/
+
+# ---- Asset pipeli
